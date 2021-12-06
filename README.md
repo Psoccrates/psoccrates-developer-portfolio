@@ -1,5 +1,4 @@
 
-
 # Front End Developer Portfolio
 
 A webpage that houses a curated collection of front end development projects.
@@ -19,11 +18,7 @@ view portfolio: https://psoccratesstudio.com/
 
 **Client:** 
 
-![GitHub license](https://img.shields.io/badge/HTML5-darkblue?style=for-the-badge&logo=html5&logoColor=white) 
-
-![GitHub license](https://img.shields.io/badge/CSS3-darkblue?style=for-the-badge&logo=css3&logoColor=white) 
-
-![GitHub license](https://img.shields.io/badge/JavaScript-darkblue?style=for-the-badge&logo=javascript&logoColor=white) 
+![GitHub license](https://img.shields.io/badge/HTML5-darkblue?style=for-the-badge&logo=html5&logoColor=white) ![GitHub license](https://img.shields.io/badge/CSS3-darkblue?style=for-the-badge&logo=css3&logoColor=white) ![GitHub license](https://img.shields.io/badge/JavaScript-darkblue?style=for-the-badge&logo=javascript&logoColor=white) 
 ## Lessons Learned
 
 I was able to practice a multitude of important design and development concepts while building this portfolio.
