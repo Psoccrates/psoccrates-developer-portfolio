@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <section class="form-container">
+    <div class="form__header">
+        <span">
+        <img
+          class="icon-container icon icon--portfolio"
+          src="/src/images/portfolio-logo.svg"
+          alt="Psoccrates portfolio logo"
+        />
+      </span>
+      <h3 class=form__heading>I <span class="typography-color--accent--secondary">Would Love to</span>
+          <br>
+          <span class="typography-color--accent--secondary">Hear From You</span>.</h3>
+        <div class="contact-square--right--one" ></div>
+        <div class="contact-square--right--two" ></div>
+        <div class="contact-square--right--three" ></div>
+        <div class="contact-square--left--one" ></div>
+        <div class="contact-square--left--two" ></div>
+        <div class="contact-square--left--three" ></div>
+    </div>
+    <div class="form__contact-container">
+      <ul class="nav__links-container">
+        <li><a class="nav__links" href="#about">About</a></li>
+        <li><a class="nav__links" href="#projects">Projects</a></li>
+        <li><a class="nav__links" href="#home">Home</a></li>
+      </ul>
+      <h3 class="contact__header"><span class="typography-color--primary">Contact</span><span class="typography-color--accent--secondary">.</span></h3>
+      <form action="" autocomplete="on">
+        <fieldset class="form--typography">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" maxlength="33" required />
+          <br><br>
+          <label for="lname" id="lname">Last Name</label>
+          <input type="text" id="lname" maxlength="33" required />
+          <br><br>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            maxlength="320"
+            required
+          />
+          <br><br>
+          <label for="phone">Phone Number</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="example: 123-456-6798"
+            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+            maxlength="12"
+            required
+          />
+          <br><br>
+          <label for="message">Message</label>
+          <textarea name="message" id="message"></textarea>
+          <div class="contact__btns">
+            <input type="submit" value="&lt Submit /&gt" maxlength="500" required />
+            <input type="reset" value="&lt Reset /&gt" />
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </section>
+</html>

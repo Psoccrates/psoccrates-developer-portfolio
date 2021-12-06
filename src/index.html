@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Portfolio, HTML, Vanilla CSS, Vanilla JavaScript, FrontEnd Developer"
+    />
+    <meta name="description" content="Psoccrates Developer Portfolio" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/css/styles.css" />
+  </head>
+  <!-- Hero -->
+  <header class="hero" id="home">
+    <nav class="nav">
+      <ul class="nav__links-container">
+        <li><a class="nav__links" id="nav--about" href="#about">About</a></li>
+        <li>
+          <a class="nav__links" id="nav--projects" href="#projects">Projects</a>
+        </li>
+      </ul>
+      <div class="right-square--one"></div>
+      <div class="right-square--two"></div>
+      <div class="right-square--three"></div>
+    </nav>
+    <img
+      class="icon-container icon icon--portfolio"
+      src="/src/images/portfolio-logo.svg"
+      alt="Psoccrates portfolio logo"
+    />
+    <div class="hero__header">
+      <h1>
+        Front
+        <span class="typography-color--accent--secondary">End Developer</span>.
+      </h1>
+      <p class="paragraph__header">Where design meets logic.</p>
+    </div>
+    <div class="left-square--one"></div>
+    <div class="left-square--two"></div>
+    <div class="left-square--three"></div>
+  </header>
+  <!-- About -->
+  <section class="about-section grid" id="about">
+    <h2>About <span class="typography-color--primary">/ Skills</span>.</h2>
+    <article class="card card__about">
+      <div class="card-background--primary card-background--primary__about">
+        <p class="paragraph__about">
+          My name is Psoccrates Stansberry. I am a front end developer that
+          enjoys building modern responsive websites. I love coding, art, tech,
+          mathematics, and learning new skills.
+          <br />
+          <br />
+          I have knowledge of HTML, CSS, JavaScript, Web Pack 5, Photoshop, and
+          Illustrator in Adobe CC:
+        </p>
+        <span class="card__icons card__icons__about">
+          <img
+            class="icon-container icon icon--card"
+            src="/src/images/html5-logo.svg"
+            alt=""
+          />
+          <img
+            class="icon-container icon icon--card"
+            src="/src/images/css3-logo.svg"
+            alt=""
+          />
+          <img
+            class="icon-container icon icon--card"
+            src="/src/images/es6-logo.svg"
+            alt=""
+          />
+          <img
+            class="icon-container icon icon--card"
+            src="/src/images/webpack-logo.svg"
+            alt=""
+          />
+          <img
+            class="icon-container icon icon--card"
+            src="/src/images/adobe-cc-logo.svg"
+            alt=""
+          />
+        </span>
+        <ul class="card__links card__links__about">
+          <li>
+            <a
+              class="project__links"
+              href="/src/images/psoccrates-stansberry-developer-resume-2021.pdf"
+              target="_blank"
+              rel="noponener noreferrer"
+              >&lt; Resume /&gt;</a
+            >
+          </li>
+          <li>
+            <a
+              class="project__links"
+              href="https://www.linkedin.com/in/psoccrates-stansberry"
+              target="_blank"
+              rel="noponener noreferrer"
+              >&lt; LinkedIn /&gt;</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="card-background--accent card-background--accent__about">
+        <picture>
+          <source type="image/png" srcset="/src/images/about-photo.png" />
+          <source type="image/webp" srcset="/src/images/about-photo.webp" />
+          <img
+            class="image--about"
+            src="/src/images/about-photo.png"
+            alt="Psoccrates Stansberry profile picture"
+          />
+        </picture>
+      </div>
+    </article>
+  </section>
+  <!-- Projects -->
+  <section class="grid card__projects" id="projects">
+    <h2>Projects<span class="typography-color--primary">.</span></h2>
+    <article class="card">
+      <div class="card-background--primary">
+        <div class="card__description">
+          <h3>
+            Easybank
+            <span class="typography-color--accent--secondary">Landing Page</span
+            >.
+          </h3>
+          <p class="paragraph__projects">
+            This project was built with vanilla HTML, CSS, and JavaScript. The
+            mobile and desktop design was provided by Front End Mentor. The
+            tablet design was interpreted. This project was excellent for
+            learning modal implementation, and utilizing breakpoints that fit
+            the design and provide the user with the best experience.
+          </p>
+        </div>
+        <ul class="card__links">
+          <li>
+            <a
+              class="project__links"
+              href="http://easy-bank.psoccratesstudio.com/"
+              target="_blank"
+              rel="noponener noreferrer"
+              >&lt; Website /&gt;</a
+            >
+          </li>
+          <li>
+            <a
+              class="project__links"
+              href="https://github.com/Psoccrates/easybank-landing-page.git"
+              target="_blank"
+              rel="noponener noreferrer"
+              >&lt; Github /&gt;</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="card-background--accent">
+        <picture>
+          <source type="image/jpg" srcset="/src/images/easybank-project.jpg" />
+          <source
+            type="image/webp"
+            srcset="/src/images/easybank-project.webp"
+          />
+          <img
+            class="image--projects"
+            src="/src/images/easybank-project.jpg"
+            alt="Easybank Landing Page project"
+          />
+        </picture>
+      </div>
+    </article>
+    <article class="card">
+      <div class="card-background--primary">
+        <div class="card__description">
+          <h3>
+            Typemaster
+            <span class="typography-color--accent--secondary">Landing Page</span
+            >.
+          </h3>
+          <p class="paragraph__projects">
+            This is a simple landing page. However, it was great for learning
+            how to implement responsive images of different sizes based on media
+            queries. This was built with HTML and CSS. The mobile, desktop, and
+            tablet design was provided by Front End Mentor.
+          </p>
+        </div>
+        <ul class="card__links">
+          <li>
+            <a
+              class="project__links"
+              href="http://typemaster.psoccratesstudio.com/"
+              target="_blank"
+              rel="noponener noreferrer"
+              >&lt; Website /&gt;</a
+            >
+          </li>
+          <li>
+            <a
+              class="project__links"
+              href="https://github.com/Psoccrates/Typemaster-Pre-Launch-Landing-Page.git"
+              target="_blank"
+              rel="noponener noreferrer"
+              >&lt; Github /&gt;</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="card-background--accent">
+        <picture>
+          <source
+            type="image/jpg"
+            srcset="/src/images/typemaster-project.jpg"
+          />
+          <source
+            type="image/webp"
+            srcset="/src/images/typemaster-project.webp"
+          />
+          <img
+            class="image--projects"
+            src="/src/images/typemaster-project.jpg"
+            alt="Easybank Landing Page project"
+          />
+        </picture>
+      </div>
+    </article>
+    <article class="card">
+      <div class="card-background--primary">
+        <div class="card__description">
+          <h3>
+            Moshified
+            <span class="typography-color--accent--secondary">Landing Page</span
+            >.
+          </h3>
+          <p class="paragraph__projects">
+            This was a code along project that taught me the fundamentals
+            responsive "bottom up" web construction. I learned the essentials of
+            typography, serving images based on users' display, using third
+            party animation libraries; and measuring web performance. This
+            project was provided by Coding with Mosh.
+          </p>
+        </div>
+        <ul class="card__links">
+          <li>
+            <a
+              class="project__links"
+              href="https://cloud-service-project.netlify.app/"
+              target="_blank"
+              rel="noponener noreferrer"
+              >&lt; Website /&gt;</a
+            >
+          </li>
+          <li>
+            <a
+              class="project__links"
+              href="https://github.com/Psoccrates/cloud-service-project.git"
+              target="_blank"
+              rel="noponener noreferrer"
+              >&lt; Github /&gt;</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="card-background--accent">
+        <picture>
+          <source type="image/jpg" srcset="/src/images/cloud-project.jpg" />
+          <source type="image/webp" srcset="/src/images/cloud-project.webp" />
+          <img
+            class="image--projects"
+            src="/src/images/cloud-project.jpg"
+            alt="Easybank Landing Page project"
+          />
+        </picture>
+      </div>
+    </article>
+  </section>
+  <!-- Contact Form-->
+  <section class="form-container--modal" id="form-modal">
+    <div class="form-container">
+      <div class="form__header">
+        <img
+          class="icon-container icon icon--portfolio"
+          src="/src/images/portfolio-logo.svg"
+          alt="Psoccrates portfolio logo"
+        />
+        <h3 class="form__heading">
+          I
+          <span class="typography-color--accent--secondary">Would Love to</span>
+          <br />
+          <span class="typography-color--accent--secondary">Hear From You</span
+          >.
+        </h3>
+        <div class="contact-square--right--one"></div>
+        <div class="contact-square--right--two"></div>
+        <div class="contact-square--right--three"></div>
+        <div class="contact-square--left--one"></div>
+        <div class="contact-square--left--two"></div>
+        <div class="contact-square--left--three"></div>
+      </div>
+      <div class="form__contact-container">
+        <ul class="nav__links-container">
+          <li>
+            <a class="nav__links" id="close-modal--about" href="#about"
+              >About</a
+            >
+          </li>
+          <li>
+            <a class="nav__links" id="close-modal--projects" href="#projects"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a class="nav__links" id="close-modal--home" href="#home">Home</a>
+          </li>
+        </ul>
+        <h3 class="contact__header">
+          <span class="typography-color--primary">Contact</span
+          ><span class="typography-color--accent--secondary">.</span>
+        </h3>
+        <form
+          action="https://formsubmit.co/psoccrates@psoccratesstudio.com"
+          method="POST"
+          autocomplete="on"
+        >
+          <fieldset class="form--typography">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" maxlength="70" required />
+            <br /><br />
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              maxlength="320"
+              required
+            />
+            <br /><br />
+            <label for="phone">Phone Number</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="example: 123-456-6798"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              maxlength="12"
+              required
+            />
+            <br /><br />
+            <label for="message">Message</label>
+            <textarea name="message" id="message" maxlength="500"></textarea>
+            <div class="contact__btns">
+              <input type="submit" value="&lt; Submit /&gt;" />
+              <input type="reset" value="&lt; Reset /&gt;" />
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <ul class="nav__links-container">
+        <li><a class="nav__links" href="#about">About</a></li>
+        <li><a class="nav__links" href="#projects">Projects</a></li>
+        <li>
+          <a class="nav__links" id="open-contact-page" href="#open-contact-page"
+            >Contact</a
+          >
+        </li>
+      </ul>
+      <p class="attribution">
+        &copy; Psoccrates Stansberry.
+        <br />
+        All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+  <script src="/src/index.js"></script>
+</html>
