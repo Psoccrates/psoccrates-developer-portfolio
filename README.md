@@ -1,5 +1,3 @@
-# psoccrates-developer-portfolio
-Front End Developer Portfolio v1.0 
 
 # Front End Developer Portfolio
 
