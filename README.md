@@ -28,7 +28,7 @@ I was able to practice a multitude of important design and development concepts 
 
 
 
-**Development Concepts: utilizing reusable components or bottom up development, supplying modern image formats such as webp, and practicing object-oriented CSS; separating structure from content and container from “skin.”**
+**Development concepts: utilizing reusable components or bottom up development, supplying modern image formats such as webp, and practicing object-oriented CSS; separating structure from content and container from “skin.”**
 
 ![carbon](https://user-images.githubusercontent.com/90261947/144902235-a3fb9194-5e04-403e-b9bc-4b7d5c74a1aa.png)
 
