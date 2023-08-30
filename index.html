@@ -8,8 +8,10 @@
       name="keywords"
       content="Portfolio, HTML, Vanilla CSS, Vanilla JavaScript, FrontEnd Developer"
     />
+
     <meta name="description" content="Psoccrates Developer Portfolio" />
-    <title>Document</title>
+    <title>Psoccrates FrontEnd Developer Portfolio</title>
+    <link rel="icon" href="/src/images/portfolio-logo-small.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,6 +32,7 @@
       <div class="right-square--one"></div>
       <div class="right-square--two"></div>
       <div class="right-square--three"></div>
+      <div class="floating-squares"></div>
     </nav>
     <img
       class="icon-container icon icon--portfolio"
@@ -58,7 +61,7 @@
           mathematics, and learning new skills.
           <br />
           <br />
-          I have knowledge of HTML, CSS, JavaScript, Web Pack 5, Photoshop, and
+          I have knowledge of HTML, CSS, JavaScript, UI/UX, Photoshop, and
           Illustrator in Adobe CC:
         </p>
         <span class="card__icons card__icons__about">
@@ -79,11 +82,6 @@
           />
           <img
             class="icon-container icon icon--card"
-            src="/src/images/webpack-logo.svg"
-            alt=""
-          />
-          <img
-            class="icon-container icon icon--card"
             src="/src/images/adobe-cc-logo.svg"
             alt=""
           />
@@ -92,7 +90,7 @@
           <li>
             <a
               class="project__links"
-              href="/src/images/psoccrates-stansberry-developer-resume-2021.pdf"
+              href="/src/images/psoccrates-stansberry-developer-resume-2023.pdf"
               target="_blank"
               rel="noponener noreferrer"
               >&lt; Resume /&gt;</a
@@ -124,7 +122,52 @@
   </section>
   <!-- Projects -->
   <section class="grid card__projects" id="projects">
-    <h2>Projects<span class="typography-color--primary">.</span></h2>
+    <h2>Projects<span class="typography-color--primary"> / Works</span>.</h2>
+    <article class="card">
+      <div class="card-background--primary">
+        <div class="card__description">
+          <h3>
+            Ashley's
+            <span class="typography-color--accent--secondary">Book Hive</span>.
+          </h3>
+          <p class="paragraph__projects">
+            Custom designed and built landing page for a small business' book
+            store per client requirements specification. Website is responsive,
+            accessible, secure, and SEO optimized. UI is implemented using core
+            principles such as color and shape psychology. Website developed
+            using vanilla HTML, CSS, and, JavaScript.
+          </p>
+        </div>
+        <ul class="card__links">
+          <li>
+            <a
+              class="project__links"
+              href="https://www.ashleysbookhive.com/ "
+              target="_blank"
+              rel="noponener noreferrer"
+              >&lt; Website /&gt;</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="card-background--accent">
+        <picture>
+          <source
+            type="image/jpg"
+            srcset="/src/images/ashleys-book-hive-works.jpg"
+          />
+          <source
+            type="image/webp"
+            srcset="/src/images/ashleys-book-hive-works.webp"
+          />
+          <img
+            class="image--projects"
+            src="/src/images/ashleys-book-hive-works.jpg"
+            alt="Easybank Landing Page project"
+          />
+        </picture>
+      </div>
+    </article>
     <article class="card">
       <div class="card-background--primary">
         <div class="card__description">
@@ -226,55 +269,6 @@
           <img
             class="image--projects"
             src="/src/images/typemaster-project.jpg"
-            alt="Easybank Landing Page project"
-          />
-        </picture>
-      </div>
-    </article>
-    <article class="card">
-      <div class="card-background--primary">
-        <div class="card__description">
-          <h3>
-            Moshified
-            <span class="typography-color--accent--secondary">Landing Page</span
-            >.
-          </h3>
-          <p class="paragraph__projects">
-            This was a code along project that taught me the fundamentals
-            responsive "bottom up" web construction. I learned the essentials of
-            typography, serving images based on users' display, using third
-            party animation libraries; and measuring web performance. This
-            project was provided by Coding with Mosh.
-          </p>
-        </div>
-        <ul class="card__links">
-          <li>
-            <a
-              class="project__links"
-              href="https://cloud-service-project.netlify.app/"
-              target="_blank"
-              rel="noponener noreferrer"
-              >&lt; Website /&gt;</a
-            >
-          </li>
-          <li>
-            <a
-              class="project__links"
-              href="https://github.com/Psoccrates/cloud-service-project.git"
-              target="_blank"
-              rel="noponener noreferrer"
-              >&lt; Github /&gt;</a
-            >
-          </li>
-        </ul>
-      </div>
-      <div class="card-background--accent">
-        <picture>
-          <source type="image/jpg" srcset="/src/images/cloud-project.jpg" />
-          <source type="image/webp" srcset="/src/images/cloud-project.webp" />
-          <img
-            class="image--projects"
-            src="/src/images/cloud-project.jpg"
             alt="Easybank Landing Page project"
           />
         </picture>
